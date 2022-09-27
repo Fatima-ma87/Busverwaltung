@@ -1,0 +1,30 @@
+
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container bootstrap snippets bootdey">
+    <div class="row">
+        <form [formGroup]="addbus" novalidate class="form"></form>
+    </div>
+    <div class="lc-block col-md-4 col-md-offset-4 toggled" id="l-login">
+        <div class="lcb-float"><i class="fa fa-bus"></i></div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Busnummer">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Startpunkt">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Endpunkt">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Fahrzeit">
+        </div>
+        <div class="clearfix"></div>
+        <a href="" type="submit" (click)="onSubmit()" class="btn btn-block btn-primary btn-float m-t-25">Add Bus</a>
+        
+            
+        
+    </div>
+</div>
+<router-outlet></router-outlet>
